@@ -1,0 +1,152 @@
+[
+  {
+    "city": "Delhi",
+    "state": "Delhi",
+    "classification": "metro",
+    "population_millions": 30.3,
+    "avg_peak_speed_kmph": 18,
+    "avg_delay_minutes": 47,
+    "vehicle_mix": {
+      "two_wheeler_pct": 0.46,
+      "car_pct": 0.32,
+      "bus_pct": 0.08,
+      "truck_pct": 0.06,
+      "auto_pct": 0.08
+    },
+    "issues": [
+      "Severe peak-hour congestion along Ring Road and Outer Ring Road",
+      "High violation rate at signalised junctions",
+      "Frequent pedestrian conflicts at busy crossings"
+    ],
+    "recommended_actions": [
+      "Deploy adaptive signals with transit priority in bus-dense corridors",
+      "Integrate red-light violation detection cameras",
+      "Add pedestrian scramble phases at Chandni Chowk and Connaught Place"
+    ]
+  },
+  {
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "classification": "metro",
+    "population_millions": 26.6,
+    "avg_peak_speed_kmph": 19,
+    "avg_delay_minutes": 42,
+    "vehicle_mix": {
+      "two_wheeler_pct": 0.38,
+      "car_pct": 0.35,
+      "bus_pct": 0.12,
+      "truck_pct": 0.05,
+      "auto_pct": 0.1
+    },
+    "issues": [
+      "Long signal cycles on Western and Eastern Express Highways",
+      "Bottlenecks near Metro construction zones",
+      "Chronic curbside parking encroachment"
+    ],
+    "recommended_actions": [
+      "Deploy adaptive offsets to coordinate north-south arterials",
+      "Provide dynamic detour guidance via VMS and app integration",
+      "Introduce automated parking enforcement near stations"
+    ]
+  },
+  {
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "classification": "metro",
+    "population_millions": 13.6,
+    "avg_peak_speed_kmph": 17,
+    "avg_delay_minutes": 51,
+    "vehicle_mix": {
+      "two_wheeler_pct": 0.49,
+      "car_pct": 0.29,
+      "bus_pct": 0.09,
+      "truck_pct": 0.04,
+      "auto_pct": 0.09
+    },
+    "issues": [
+      "Whitefield and ORR commute times exceeding 90 minutes",
+      "High share of IT commuter traffic causing directional peaks",
+      "Signal jump violations during peak hours"
+    ],
+    "recommended_actions": [
+      "Deploy adaptive clusters near ORR and Silk Board",
+      "Provide reversible lane strategies with real-time signage",
+      "Gamify compliance through corporate commute dashboards"
+    ]
+  },
+  {
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "classification": "tier_2",
+    "population_millions": 3.1,
+    "avg_peak_speed_kmph": 28,
+    "avg_delay_minutes": 24,
+    "vehicle_mix": {
+      "two_wheeler_pct": 0.52,
+      "car_pct": 0.24,
+      "bus_pct": 0.08,
+      "truck_pct": 0.06,
+      "auto_pct": 0.1
+    },
+    "issues": [
+      "Growing logistics traffic along NH44",
+      "Unsignalised intersections near MIHAN SEZ",
+      "Pedestrian safety gaps around Sitabuldi"
+    ],
+    "recommended_actions": [
+      "Prioritise adaptive signals for freight corridors",
+      "Add detection-based pedestrian crossings in CBD",
+      "Coordinate signals with Metro feeder services"
+    ]
+  },
+  {
+    "city": "Kochi",
+    "state": "Kerala",
+    "classification": "tier_2",
+    "population_millions": 2.8,
+    "avg_peak_speed_kmph": 24,
+    "avg_delay_minutes": 29,
+    "vehicle_mix": {
+      "two_wheeler_pct": 0.45,
+      "car_pct": 0.3,
+      "bus_pct": 0.11,
+      "truck_pct": 0.05,
+      "auto_pct": 0.09
+    },
+    "issues": [
+      "Bridge bottlenecks during port operations",
+      "High auto-rickshaw share causing micro-conflicts",
+      "Seasonal tourist surges overwhelming junctions"
+    ],
+    "recommended_actions": [
+      "Integrate adaptive signals with port dispatch schedules",
+      "Create dedicated auto holding bays near junctions",
+      "Deploy seasonal signal plans for tourism peaks"
+    ]
+  },
+  {
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "classification": "tourism_city",
+    "population_millions": 0.8,
+    "avg_peak_speed_kmph": 26,
+    "avg_delay_minutes": 18,
+    "vehicle_mix": {
+      "two_wheeler_pct": 0.41,
+      "car_pct": 0.28,
+      "bus_pct": 0.07,
+      "truck_pct": 0.07,
+      "auto_pct": 0.17
+    },
+    "issues": [
+      "Narrow heritage lanes with mixed traffic",
+      "Night-time tourist traffic around lakes",
+      "Infrequent pedestrian facilities"
+    ],
+    "recommended_actions": [
+      "Deploy adaptive signals with pedestrian-first modes",
+      "Schedule traffic calming measures for evening hours",
+      "Integrate adaptive system with parking guidance"
+    ]
+  }
+]
