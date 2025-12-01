@@ -78,11 +78,3 @@ This project can be broken down into 3 modules:
 ```
 
 ------------------------------------------
-### Contributors
-
-Daniel Mbithi Musau - [Daniel Mbithi Musau](https://github.com/DanielMbithiMusau)
-
-------------------------------------------
-### Acknowledgement
-
-I would like to extend my sincere thanks to my mentor Dr. Lawrence Nderu for his kind help and valuable advice. His support and constant supervision was imperative for the successful completion of this project.
