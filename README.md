@@ -56,7 +56,7 @@ This project can be broken down into 3 modules:
 
 * Step I: Clone the Repository
 ```sh
-      $ git clone https://github.com/DanielMbithiMusau/Adaptive-Traffic-Lights.git
+      $ git clone (https://github.com/srnvslanka03/Traffic-Light-Surveillance-Management-System-.git)
 ```
 
 * Step II: Download the weights file from [here](https://drive.google.com/file/d/1flTehMwmGg-PMEeQCsDS2VWRLGzV6Wdo/view?usp=sharing) and create a bin directory and place it there.
