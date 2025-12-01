@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: traffic-light-surveillance
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python web_app.py"
+    disk:
+      name: model-storage
+      mountPath: /mnt/data
