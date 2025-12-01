@@ -7,6 +7,20 @@ import statistics
 from typing import Dict, Any, List, Optional
 
 from flask import Flask, jsonify, request, render_template
+from ultralytics import YOLO
+
+MODEL_PATH = "/mnt/data/yolov12s.pt"
+
+model = None
+if os.path.exists(MODEL_PATH):
+    try:
+        model = YOLO(MODEL_PATH)
+        print("🟢 YOLO v12s model loaded from /mnt/data")
+    except Exception as e:
+        print("🔴 Error loading YOLO v12s model:", e)
+else:
+    print("⚠️ YOLO v12s model not found. Detection disabled.")
+
 
 from data_pipeline.loader import (
     CityRecord,
