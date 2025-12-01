@@ -422,7 +422,7 @@ def api_stop(run_id: str):
 
 
 if __name__ == "__main__":
-    # For local development. In production use a proper WSGI server.
+    port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=5000, debug=True)
 
 
